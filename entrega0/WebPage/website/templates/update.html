@@ -1,0 +1,67 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}{% block content%}
+<div class="col-md-4 offset-md-4">
+  <div class="card card-body bg-dark text-white">
+    <h1>Edit Task</h1>
+
+    <form action="{{url_for('views.update', id=contact.id)}}" method="POST">
+      <div class="mb-3">
+        <label for="name">Write name event:</label>
+        <input
+          type="text"
+          name="name"
+          value="{{contact.name}}"
+          class="form-control bg-dark text-white rounded-0"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="category">Write category:</label>
+        <input
+          type="text"
+          name="category"
+          value="{{contact.category}}"
+          class="form-control bg-dark text-white rounded-0"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="place">Write your place:</label>
+        <input
+          type="text"
+          name="place"
+          value="{{contact.place}}"
+          class="form-control bg-dark text-white rounded-0"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="start">Write your start:</label>
+        <input
+          type="text"
+          name="start"
+          value="{{contact.start}}"
+          class="form-control bg-dark text-white rounded-0"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="end">Write your end:</label>
+        <input
+          type="text"
+          name="end"
+          value="{{contact.end}}"
+          class="form-control bg-dark text-white rounded-0"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="mode">Write your place:</label>
+        <input
+          type="text"
+          name="mode"
+          value="{{contact.mode}}"
+          class="form-control bg-dark text-white rounded-0"
+        />
+      </div>
+
+      <button class="btn btn-primary">Update</button>
+    </form>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<form action="/register" method="POST" class="card bg-black text-black">
+  <div class="card-body p-4">
+    <h1 class="h5 mb-4">Add Event</h1>
+
+    <div class="mb-3">
+      <label for="name">Write name:</label>
+      <input
+        type="text"
+        name="name"
+        class="form-control rounded-0 bg-dark border-0 text-white"
+        placeholder="Write name"
+        autofocus
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="email">Write your category:</label>
+      <input
+        type="text"
+        name="category"
+        class="form-control rounded-0 bg-dark border-0 text-white"
+        placeholder="Write your category"
+        required
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="place">Write your place:</label>
+      <input
+        type="text"
+        name="place"
+        class="form-control rounded-0 bg-dark border-0 text-white"
+        placeholder="place"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="start">Write your start:</label>
+      <input
+        type="text"
+        name="start"
+        class="form-control rounded-0 bg-dark border-0 text-white"
+        placeholder="start"
+      />
+    </div>
+        <div class="mb-3">
+      <label for="end">Write your end:</label>
+      <input
+        type="text"
+        name="end"
+        class="form-control rounded-0 bg-dark border-0 text-white"
+        placeholder="end"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="mode">Write your mode:</label>
+      <input
+        type="text"
+        name="mode"
+        class="form-control rounded-0 bg-dark border-0 text-white"
+        placeholder="mode"
+      />
+    </div>
+    <button class="btn btn-primary">New</button>
+  </div>
+</form>
+{% endblock %}
