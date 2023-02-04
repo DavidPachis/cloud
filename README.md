@@ -1,9 +1,13 @@
-# Talleres Cloud
+# Talleres Cloud 
 
-Acá estaran todas las entregas de cloud
+Mi nombre es David Augusto Vasquez Pachon
+correo: da.vasquez11@uniandes.edu.co
+codigo: 201512574
 
 ## carpeta de entregas
 
-tendran cada carpeta correspondiente
+
+Acá estaran todas las entregas de cloud
+ tendrán cada carpeta correspondiente
 
 
