@@ -9,6 +9,7 @@ codigo: 201512574.
 ## En web se encuentra todo el código
 
 Desarrollado en Flasjk y bootstrap
-```
+
 link del video de youtube:
+```
 https://youtu.be/Bo7fnq_7B9A
